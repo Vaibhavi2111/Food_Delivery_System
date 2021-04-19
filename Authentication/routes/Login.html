@@ -1,26 +1,25 @@
 <!DOCTYPE html>
 <html>
-    <link href="../styles/styles.css" rel="stylesheet">
-    <head>
-        <img class="logo" src="../Images/fastfood_black_24dp.svg">&nbsp;
-        <h2>Login</h2>
-    </head>
-    <br/><br/><br/><br/>
-    <body>
-        <div class="main">
-            <span id="login-loop" class="alongside">
-                <form name="myform" method="post" onsubmit="return validateform()">  
-                    <div>
-                        <h4>Email</h4><input class="info" type="text" name="name"><br/><br/>
-                        <h4>Password</h4><input class="info" type="password" name="password"><br/><br/></br/>
-                        <input class="Button" type="submit" value="Login">
-                        <br/><br/><h4>New User? <a href="Register.html"style="text-decoration: none;">Sign up</a></h4>
-                    </div>
-                </form>
-            </span>
-            <span class="alongside">
-                <img src="../Images/background.png" style="height: 500px;">
-            </span>
-        </div>
-    </body>
+	<head>
+		<h2><span class="logo"><img src="../Images/fastfood_black_24dp.svg"></span>&nbsp;Foodiez</h2>
+	</head>
+	<body>
+		<link href="../styles/styles.css" rel="stylesheet">
+		<div class="container" id="container">
+			<div class="form-container sign-in-container">
+				<form action="#">
+					<h1>Sign in</h1><br/>
+					<input class="info" type="email" placeholder="Email" />
+					<input class="info" type="password" placeholder="Password" /><br/>
+					<button>Sign In</button>
+					<h4>New user? <a href="Register.html">Sign up</a></h2>
+				</form>
+			</div>
+			<div class="overlay-container">
+				<div class="overlay-panel overlay-right">
+					<img src="../Images/background.png">
+				</div>
+			</div>
+		</div>
+	</body>
 </html>
